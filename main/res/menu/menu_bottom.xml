@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tab1"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="true"
+        android:title="전체 식재료"
+        android:icon="@drawable/ic_playlist_add_check_black_24dp"
+        />
+    <item android:id="@+id/tab2"
+        app:showAsAction="always"
+        android:enabled="true" android:title="레시피"
+        android:icon="@drawable/ic_restaurant_black_24dp"/>
+    <item android:id="@+id/tab3"
+        app:showAsAction="always"
+        android:enabled="true" android:title="내 식재료"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"/>
+</menu>
